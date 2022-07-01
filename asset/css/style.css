@@ -1,0 +1,250 @@
+body,h1,h2,h3,h4,h5,h6,span,a,p,ul,li,div{
+    font-family: 'Luxurious Script', cursive;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+/*Header style start*/
+.header-section{
+    background: url(../Image/banner.jpg) no-repeat;
+    background-position: top center;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 150px;
+}
+.header-section{
+    position: relative;
+    z-index: 1;
+}
+.header-section::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    z-index: -1;
+}
+.header-logo{}
+.header-logo h1{}
+.header-logo span {
+	color: #30c39e;
+	margin-right: 10px;
+}
+
+.header-content{}
+.header-content h5 {
+	font-size: 18px;
+	font-weight: 300;
+	margin-top: 150px;
+}
+.header-content h1 {
+	font-weight: 900;
+	font-size: 70px;
+	color: #30c39e;
+}
+.header-content h4 {
+	font-size: 20px;
+}
+.header-content p {
+	width: 700px;
+	font-size: 15px;
+	line-height: 1.8rem;
+	font-weight: 100;
+}
+
+.banner-btn {
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	border: 2px solid #fff;
+	padding: 10px 40px;
+	background: transparent;
+	margin-right: 5px;
+    transition: .3s;
+    border-radius: 3px;
+}
+.banner-btn:hover{
+    background: #30c39e;
+    border: 2px solid #30c39e;
+    color: #fff;
+    border-radius: 3px;
+}
+/*Header style end*/
+/*About style start*/
+.about-title{
+    text-align: center;
+}
+.about-title h2 {
+	font-size: 45px;
+	letter-spacing: 3px;
+	word-spacing: 4px;
+	margin-bottom: ;
+    position: relative;
+}
+.about-title h2::after {
+	content: "";
+	position: absolute;
+	top: 57px;
+	left: 132px;
+	height: 4px;
+	width: 140px;
+	background: #000;
+}
+
+.about-text h2 {
+	font-size: 25px;
+	line-height: 1.3em;
+}
+.about-text p {
+	color: #767676;
+	font-weight: 100;
+	line-height: 1.6rem;
+	font-size: 15px;
+}
+
+.about-btn {
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	background: #0a8ea0;
+	padding: 10px 30px;
+	border-radius: 3px;
+	border: 2px solid #0a8ea0;
+	font-weight: 100;
+	transition: .3s;
+}
+.about-text span {
+	margin-left: 10px;
+}
+.about-btn:hover{
+	background: #fff;
+	color: #000;
+	border-color: #000;
+}
+.designing h3 {
+	font-size: 20px;
+	font-weight: 400;
+}
+.designing span {
+	text-align: right;
+	display: inline-block;
+	margin-left: 130px;
+}
+.designing p {
+	font-weight: 100;
+	font-size: 16px;
+	line-height: 2em;
+}
+
+.java h3{
+	font-size: 20px;
+	font-weight: 400;
+}
+.java p{
+	font-weight: 100;
+	font-size: 16px;
+	line-height: 2em;
+}
+.java span{
+	text-align: right;
+	display: inline-block;
+	margin-left: 190px;
+}
+.photoshop h3{
+	font-size: 20px;
+	font-weight: 400;
+}
+.photoshop p{
+	font-weight: 100;
+	font-size: 16px;
+	line-height: 2em;
+}
+.photoshop span{
+	text-align: right;
+	display: inline-block;
+	margin-left: 165px;
+}
+/*About style end*/
+
+
+/*Client style start*/
+.client-section{
+	background: #0a8ea0;
+}
+.client-content{}
+.client-content h2 {
+	font-size: 30px;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+.client-content p {
+	color: rgba(255,255,255,.8) !important;
+	font-weight: 300;
+	line-height: 1.8em;
+}
+
+.client-btn {
+	display: inline-block;
+	text-decoration: none;
+	color: #0a8ea0;
+	background: #fff;
+	font-weight: 100;
+	padding: 10px 25px;
+	border-radius: 4px;
+	margin-right: 5px;
+	transition: .3s;
+}
+.client-btn:hover{
+	color: #fff;
+	background: #333333;
+}
+.client-btn1{
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	background: #333333;
+	font-weight: 100;
+	padding: 10px 25px;
+	border-radius: 4px;
+	margin-right: 5px;
+	transition: .3s;
+}
+.client-btn1:hover{
+	color: #30c39e;
+	background: #fff;
+}
+/*Client style end*/
+/*Footer style start*/
+.footer-section{
+	background: #191919;
+}
+.footer-social{}
+.footer-social ul{
+	list-style: none;
+	padding-left: 0;
+}
+.footer-social ul li{
+	display: inline-block;
+}
+.footer-social ul li a {
+	display: inline-block;
+	color: #fff;
+	background: #222222;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	line-height: 40px;
+	margin-right: 5px;
+	font-size: 18px;
+}
+.top-btn a {
+	display: inline-block;
+	color: #fff;
+	margin-top: 19px;
+	height: 30px;
+	width: 30px;
+	line-height: 25px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+}
+/*Footer style end*/
